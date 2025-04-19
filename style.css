@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #d8f6ff;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
@@ -13,11 +13,13 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color: #ffffffaf;
-    padding: 20px;
+    background-image: url('assets/floresta2.png');  
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px; /* Aumentei a largura máxima para caber tudo */
+    max-width: 600px;
     width: 100%;
 }
 
@@ -27,10 +29,10 @@ body {
 
 .base__acoes-container {
     display: flex;
-    justify-content: space-between; /* Distribui o espaço igualmente */
+    justify-content: space-between;
     gap: 10px;
     width: 100%;
-    flex-wrap: nowrap; /* Impede que os itens quebrem para a próxima linha */
+    flex-wrap: nowrap;
 }
 
 .base__acoes {
@@ -38,23 +40,23 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    flex: 1; /* Faz com que todos os itens tenham o mesmo tamanho */
+    flex: 1;
 }
 
 .base__acoes__texto {
     font-size: 14px;
-    color: #333;
-    text-align: center; /* Centraliza o texto */
+    color: #ffffff;
+    text-align: center;
 }
 
 button {
     color: #ffffff;
     border-radius: 5px;
     border: none;
-    padding: 8px 12px; /* Reduzi o padding para caber mais itens */
+    padding: 8px 12px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 100%; /* Faz o botão ocupar toda a largura do container */
+    width: 100%;
 }
 
 #alimentar { background-color: #15ff00; }
